@@ -1,0 +1,151 @@
+https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-10.0
+
+https://gist.github.com/sunmeat/e5563f721555f50ce01744b08df04d82
+
+https://metanit.com/sharp/aspnet6/
+
+https://itvdn.com/ua/video/aspnetcore-adv
+
+https://itvdn.com/ua/video/aspnetcore-adv
+
+EF Core = C# + DB
+SP = Task + async await
+NP = HTTPS, GET/POST
+SOLID, patterns
+HTML / CSS / JS - React 
+
+blazor = backend frontend - C#
+
+aspire - admin panel for microservices (2+ sites)
+
+razor pages = site - page
+
+web api - end points (API)
+
+https://3.jetbra.in/ 
+
+https://www.youtube.com/watch?v=127OAgbtP5s - tutorial
+
+Backend-розробка - це набір апаратно-програмних засобів, за допомогою яких реалізована логіка роботи сайту. Просто кажучи, це те, що приховано від очей користувача і відбувається поза його браузером   і комп'ютером. Backend - це процес об'єднання сервера з користувачем.
+
+Frontend — це розробка інтерфейсу користувача та функцій, які працюють на клієнтській стороні веб-сайту або програми. Це все, що бачить користувач, відкриваючи       веб-сторінку, і з чим він взаємодіє.
+
+http://sunmeat.atwebpages.com/aspnet/webdemo/calc.html
+
+netlify - front JS (React)
+vercel - back JS (Node.JS), React
+ 
+====================
+ 
+front (html) + back (php + mysql) = awardspace
+ 
+====================
+ 
+front (React) - netlify
++ back (C#, ASP.NET, PostgreSQL) - render
+ 
+HTTP
+WSS
+
+https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+
+ASP - 1996
+ASP.Net - 2002
+ASP.Net Core - 2016 
+
+IIS - це Internet Information Services
+
+https://learn.microsoft.com/ru-ru/training/paths/aspnet-core-web-app/ - можно пройти курс и получить бейдж\сертификат 
+
+https://learn.microsoft.com/ru-ru/training/modules/create-razor-pages-aspnet-core/
+
+https://learn.microsoft.com/ru-ru/training/modules/build-web-api-aspnet-core/
+
+https://learn.microsoft.com/ru-ru/training/modules/build-your-first-aspnet-core-web-app/
+
+?param1=value&param2=value - только рядком принимает аж с 1999 года еще, ну можно еще json
+
+https://gist.github.com/sunmeat/2ed098783cb2d852f1c6a8b8bcf30cbb
+
+https://gist.github.com/sunmeat/aefd57bf3c8388538bdffb2bbdce7778
+
+https://gist.github.com/sunmeat/cd45ac1e855dd80a5e32505c32e020c4
+
+clean architecture
+ 
+
+class Cat {
+private:
+    int lapki;
+public:
+   int GetLapki() const {
+       return lapki;
+   }
+   void SetLapki(int nl) {
+       if (nl >= 0 || nl < 5) lapki = nl;
+   }
+
+
+
+
+react - form - client - БАЖАНО !!!
+controller - post data - server - ОБОВ'ЯЗКОВО !!!
+DB - sql server / firebase - TRIGGERs CHECKs field types
+ 
+
+
+public class Product
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; } = string.Empty;
+
+        public string Sku { get; set; } = string.Empty;               // Артикул
+
+        public decimal Price { get; set; }
+
+        public decimal? OldPrice { get; set; }                        // Стара ціна (для акцій)
+
+        public string Description { get; set; } = string.Empty;
+
+        public string ShortDescription { get; set; } = string.Empty;
+
+        public string ImageUrl { get; set; } = string.Empty;
+
+        public string Brand { get; set; } = string.Empty;
+
+        public string Category { get; set; } = string.Empty;
+
+        public int StockQuantity { get; set; }
+
+        public bool IsAvailable { get; set; }
+
+        public double Rating { get; set; }                            // Середній рейтинг
+
+        public int ReviewsCount { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+    }
+
+
+
+Create - GET - запит на отримання форми з полями для заповнення
+Create - POST - відправка даних з форми на ІНШИЙ екшн, який уже пише дані в БД
+
+
+DisplayNameFor - показ назви властивості (або так як вона називається в класі, або інша красива назва)
+для класів моделей можна зробити атрибут над властивістю DisplayName
+@Html.DisplayFor - показ ЗНАЧЕННЯ властивості
+
+class Cat {
+    private int lapki;
+    public int Lapki {get; set {
+         if( value >= 0 || value < 5) lapki = value;
+    }}
+
+технічно:
+ 
+автовластивості, явного поля нема, тому перевірки перекладаються на спеціальні атрибути в класі моделі
+
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/data-*
