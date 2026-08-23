@@ -1,0 +1,149 @@
+фронт - нетліфай
+бек - версел
+
+https://vercel.com/
+
+useMemo
+ 
+tanstack 
+ 
+https://graphql.org/
+
+https://tanstack.com/query/latest
+
+https://github.com/tanstack/query
+
+https://gist.github.com/sunmeat/2fe45f328618edb13425344a38eb6351
+
+https://fakestoreapi.com/products?limit=12
+
+навіщо бекенд?
+ 
+1) робота з файлами (текст, фото, музичка - багато)
+2) ендпоінти для ВЛАСНОГО АПІ
+3) робота з БД (якщо вона має бути САМЕ на вашому сервері! а не готовий сервіс типу фаєрбейс)
+
+
+https://gist.github.com/sunmeat/34cf8d9f1260155e70c98e79d8e50577
+
+https://console.firebase.google.com/
+
+https://gist.github.com/sunmeat/fecd4f307daf2178a939d6236e4805cc
+
+https://github.com/sunmeat/serverjs
+
+https://www.npmjs.com/package/express
+
+https://github.com/sunmeat/serverjs/blob/master/server.js
+
+https://scalar.com/
+
+https://github.com/sunmeat/serverjs/blob/master/App.jsx
+
+Navigation bar – Material Design 3 bottom bar
+
+https://m3.material.io/components/navigation-drawer/overview
+
+https://m3.material.io/components/navigation-rail/overview
+
+SRS (Software Requirements Specification) — це детальний документ Вікіпедія, який фіксує всі вимоги до майбутнього програмного продукту
+
+https://uk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F_%D0%B2%D0%B8%D0%BC%D0%BE%D0%B3_%D0%B4%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F
+
+MVP - minimal value product
+
+https://gist.github.com/sunmeat/db7033e5d5ac357533d630409aa08c12
+
+https://claude.ai/share/a44fc6c4-91b5-4422-adaf-40091b086782
+
+Тестування – це процес перевірки та оцінки системи, продукту чи процесу з метою виявлення дефектів, помилок та невідповідностей вимогам. Основна мета тестування – переконатися, що продукт працює так, як очікується, та задовольняє заданим вимогам.
+
+Регресійне тестування – перевіряє, що зміни не порушили існуючу функціональність
+
+проєкт середній:
+ 
+15 класів-моделей (по 10 методів)
+50 функціональних комопнентів (50 функцій)
+ 
+якщо розбивати на модулі (юніти) - вийде 200 модулів
+
+можна написати по 1 тесту на кожний модуль 
+(1 тест = 1 функція)
+ 
+SOLID
+O = Open/Closed
+ 
+console.log / debugger
+ 
+CI / CD
+ 
+vercel
+
+50 "модульних тестів" для кота 🐱
+Базова функціональність
+test_cat_responds_to_name() — перевірка реакції на власне ім'я (очікується: ігнорування)
+test_cat_has_whiskers() — наявність вусів
+test_cat_purrs_on_pet() — генерація муркотіння при гладженні
+test_cat_meows() — видає звук "няв" за запитом
+test_cat_blinks_slowly() — повільне моргання = вияв довіри
+Харчова підсистема
+test_food_bowl_detection() — знаходить миску з їжею за 0.001 сек
+test_hunger_signal_at_5am() — сигналізує про голод о 5 ранку
+test_reject_old_food() — відмова їсти їжу, що стояла >10 хв
+test_water_bowl_vs_tap_preference() — перевага крана над мискою
+test_food_theft_from_table() — спроба вкрасти їжу зі столу
+Сонна підсистема
+test_sleep_duration() — перевірка сну 16-20 год/добу
+test_sleep_on_clean_laundry() — пріоритетний вибір чистого одягу для сну
+test_sunny_spot_finder() — автопошук сонячної плями
+test_box_fitting_algorithm() — влізання в коробку, менше за розмір кота
+Соціальна взаємодія
+test_ignore_owner_call() — базовий сценарій ігнорування
+test_appear_when_busy() — з'явитися рівно тоді, коли власник зайнятий
+test_sit_on_keyboard() — сідання на клавіатуру під час роботи
+test_sit_on_book_being_read() — блокування книги тілом
+test_headbutt_affection() — тицяння головою як прояв любові
+test_stranger_avoidance() — ховатися від гостей
+Полювання та рефлекси
+test_laser_pointer_chase() — реакція на лазерну указку
+test_bug_hunting_reflex() — полювання на комах/мух
+test_string_attack() — атака на нитки/мотузки
+test_pounce_from_ambush() — стрибок з засідки на ноги власника
+test_curtain_climbing() — здатність залазити на штори
+Гігієна
+test_grooming_frequency() — вилизування шерсті ≥ 5 разів/день
+test_litter_box_usage() — коректне використання лотка
+test_litter_scatter_radius() — розкидання наповнювача за межі лотка
+test_post_litter_zoomies() — біг після відвідування лотка
+Комунікація з людиною
+test_stare_until_fed() — гіпнотичний погляд для отримання їжі
+test_knock_item_off_table() — скидання предметів для привернення уваги
+test_3am_meow_alert() — нічне нявкання без причини
+test_slow_walk_in_front_of_legs() — ходьба перед ногами (навмисне)
+Емоційний стан
+test_happy_tail_position() — вертикальний хвіст = хороший настрій
+test_annoyed_tail_flick() — посмикування хвостом = роздратування
+test_belly_trap() — показ живота ≠ дозвіл гладити (пастка)
+test_zoomies_random_trigger() — раптові напади активності
+Взаємодія з речами
+test_new_box_priority() — нова коробка > дорога іграшка
+test_paper_bag_exploration() — дослідження паперових пакетів
+test_plant_knockdown() — скидання кімнатних рослин
+test_toilet_paper_unroll() — розмотування туалетного паперу
+Edge cases (крайні випадки)
+test_behavior_during_vet_visit() — максимальний рівень стресу
+test_behavior_in_carrier() — спроба втечі з переноски
+test_reaction_to_cucumber() — стрес-тест на несподівані об'єкти 🥒
+test_reaction_to_vacuum_cleaner() — панічна втеча від пилососа
+test_water_avoidance() — уникнення води (крім крана)
+Довгострокова стабільність
+test_weight_monitoring() — контроль ваги протягом місяця
+test_scratching_post_usage() — використання дряпки замість дивана
+test_seasonal_shedding() — сезонне линяння шерсті
+test_overall_cuteness_score() — інтеграційний тест: рівень милоти ≥ 100% ✅
+ 
+
+Вносячи зміни до коду, легко поламати те, що працювало, і навіть не помітити цього. Добре було б зафіксувати правильну поведінку,              і регулярно перевіряти, чи код їй відповідає. Тести - це і є спосіб зафіксувати правильну поведінку коду.
+
+
+https://alexfm.vercel.app/
