@@ -151,3 +151,15 @@ class Cat {
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/data-*
 
 https://dotnet.github.io/docfx/ - доксиген, для работы коментариев, лучшая альтернатива
+
+Cloudinary: Image and Video Upload, Storage, Optimization and CDN
+ImageKit.io: Image & Video API, Agentic DAM, Creative Automation: Complete Visual Media Platform | ImageKit.io
+Supabase Storage: https://supabase.com/storage
+Firebase Storage: Cloud Storage for Firebase | Store and serve content with ease
+Uploadcare: File uploading, processing & delivery for web and mobile apps
+Cloudflare R2: Cloudflare R2 - Egress-Free Object Storage
+Backblaze B2: Low Cost, High Performance S3 Compatible Object Storage
+Imgur API: https://apidocs.imgur.com
+ImgBB API: https://api.imgbb.com
+MinIO: https://min.io
+ 
